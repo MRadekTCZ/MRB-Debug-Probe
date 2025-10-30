@@ -15,7 +15,7 @@ The `.exe` file is fully self-contained and includes:
 
 **LINK BELOW**
   
-https://chalmers-my.sharepoint.com/:u:/r/personal/brzycki_chalmers_se/Documents/Projects/ATC/MicroInverter/DebuggingProbeConsole/MRB_DebugProbe.zip?csf=1&web=1&e=9T3ZFT
+https://chalmers-my.sharepoint.com/:u:/g/personal/brzycki_chalmers_se/EQiga4VDg0xAhXSQ1CFWshYBRxsMj76vN4dNyAIP1USMDQ
 
 ## ✳️ Features
 - Real-time plotting of UART/CSV data from LaunchPad XL + Plecs Coder  
