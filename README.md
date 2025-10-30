@@ -5,7 +5,15 @@
 It reads CSV-formatted serial data from a Plecs schematic and plots multiple channels live in one interactive window.  
 The executable in the `MRB_DebugProbe/` folder runs on **any Windows computer** without Python or additional libraries.
 
----
+## 💻 EXE version
+✅ Works on any Windows PC  
+✅ No Python or external dependencies required  
+✅ No Installation Needed
+The `.exe` file is fully self-contained and includes:
+- Python interpreter  
+- Tkinter, Matplotlib, and PySerial libraries
+**LINK BELOW**
+https://chalmers-my.sharepoint.com/:u:/r/personal/brzycki_chalmers_se/Documents/Projects/ATC/MicroInverter/DebuggingProbeConsole/MRB_DebugProbe.zip?csf=1&web=1&e=9T3ZFT
 
 ## ✳️ Features
 - Real-time plotting of UART/CSV data from LaunchPad XL + Plecs Coder  
@@ -28,10 +36,7 @@ The executable in the `MRB_DebugProbe/` folder runs on **any Windows computer** 
 
 ---
 
-## 💻 No Installation Needed
-The `.exe` file is fully self-contained and includes:
-- Python interpreter  
-- Tkinter, Matplotlib, and PySerial libraries  
 
-✅ Works on any Windows PC  
-✅ No Python or external dependencies required  
+
+
+
