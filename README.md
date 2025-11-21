@@ -15,7 +15,7 @@ The `.exe` file is fully self-contained and includes:
 
 **LINK BELOW**
   
-https://chalmers-my.sharepoint.com/:u:/g/personal/brzycki_chalmers_se/EQiga4VDg0xAhXSQ1CFWshYBRxsMj76vN4dNyAIP1USMDQ
+https://chalmers-my.sharepoint.com/:f:/g/personal/brzycki_chalmers_se/IgCbB_LOKPMoT6dw0E_E5cVzAXAOG1L80WgmVh4jArf9Hd0?e=0xzFKb
 
 ## ✳️ Features
 - Real-time plotting of UART/CSV data from LaunchPad XL + Plecs Coder  
