@@ -11,7 +11,7 @@ The executable runs on **any Windows computer** without Python or additional lib
 
 **LINK BELOW**  
 
-https://chalmers-my.sharepoint.com/:f:/g/personal/brzycki_chalmers_se/IgCbB_LOKPMoT6dw0E_E5cVzAXAOG1L80WgmVh4jArf9Hd0?e=0xzFKb
+https://chalmers-my.sharepoint.com/:u:/g/personal/brzycki_chalmers_se/ERnHVhB9-sxCgOBm7mcmZTcBc_A7XZohiXc4m2sFcgyj-w?e=2n3eOG
 
 ## ✳️ Features
 - Real-time plotting of UART/CSV data from LaunchPad XL + Plecs Coder  
