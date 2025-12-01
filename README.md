@@ -26,10 +26,12 @@ https://chalmers-my.sharepoint.com/:f:/g/personal/brzycki_chalmers_se/IgCbB_LOKP
 1. Open the `UartExample.plecs` file.  
 2. Copy the *MRB Debug Probe* subsystem together with the UART Serial block into your project.  
 3. Run the EXE file or Python script.  
-4. Click **Start** to view live Plecs CSV data.  
-5. Choose **Yes** to log CSV data.  
+4. Click **Start Plot** to view live Plecs data.  
+5. Choose **Save CSV: Yes** to log CSV data.  
 6. Input values, gain values, axis limits, and window size can be changed online.  
-7. To change the number of active (plotted) channels, turn the window with the scope off and start it again (you don’t need to turn off the whole program).  
+7. To change the number of active (plotted) channels, turn the window with the scope off and start it again (you don’t need to turn off the whole program).
+8. Gain values are changed online with every refresh cycle
+9. Input values are not changed online, you must click **Update Inputs** to assign new input values
 
 ---
 
