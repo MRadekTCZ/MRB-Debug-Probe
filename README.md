@@ -25,15 +25,16 @@ https://chalmers-my.sharepoint.com/:u:/g/personal/brzycki_chalmers_se/ERnHVhB9-s
 
 ## ⚙️ How to use it
 1. Open the `UartExample.plecs` file.  
-2. Copy the *MRB Debug Probe* subsystem together with the UART Serial block into your project.  
-3. Run the EXE file or Python script.  (It can take up to 30 seconds to start a program, so be patient)
-4. Click **Start Plot** to view live Plecs data.  (After starting, it may take 10 second for plotter to appear)
-5. Choose **Save CSV: Yes** to log CSV data.  
-6. Input values, gain values, axis limits, and window size can be changed online.  
-7. To change the number of active (plotted) channels, turn the window with the scope off and start it again (you don’t need to turn off the whole program).
-8. Gain values are changed online with every refresh cycle
-9. Input values are not changed online, you must click **Update Inputs** to assign new input values
-10. Remember that data is sent as uint16, so all floats are parsed to integers. If you want to keep decimal number, you have to multiply them by gain *k* from plecs side and divide it by gain *1/k* on debug program side
+2. Copy the *MRB Debug Probe* subsystem together with the UART Serial block into your project.
+3. Turn off the external mode: *Coder options -> Target -> External mode -> Off*
+4. Run the EXE file or Python script.  (It can take up to 30 seconds to start a program, so be patient)
+5. Click **Start Plot** to view live Plecs data.  (After starting, it may take 10 second for plotter to appear)
+6. Choose **Save CSV: Yes** to log CSV data.  
+7. Input values, gain values, axis limits, and window size can be changed online.  
+8. To change the number of active (plotted) channels, turn the window with the scope off and start it again (you don’t need to turn off the whole program).
+9. Gain values are changed online with every refresh cycle
+10. Input values are not changed online, you must click **Update Inputs** to assign new input values
+11. Remember that data is sent as uint16, so all floats are parsed to integers. If you want to keep decimal number, you have to multiply them by gain *k* from plecs side and divide it by gain *1/k* on debug program side
 
 ---
 
