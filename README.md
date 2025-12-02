@@ -29,13 +29,14 @@ https://chalmers-my.sharepoint.com/:u:/g/personal/brzycki_chalmers_se/ERnHVhB9-s
 3. Turn off the external mode: *Coder options -> Target -> External mode -> Off*
 4. Both Debug subsystem and UART serial block should be under task with 1e-3s execution time.
 5. Run the EXE file or Python script.  (It can take up to 30 seconds to start a program, so be patient)
-6. Click **Start Plot** to view live Plecs data.  (After starting, it may take 10 second for plotter to appear)
-7. Choose **Save CSV: Yes** to log CSV data.  
-8. Input values, gain values, axis limits, and window size can be changed online.  
-9. To change the number of active (plotted) channels, turn the window with the scope off and start it again (you don’t need to turn off the whole program).
-10. Gain values are changed online with every refresh cycle
-11. Input values are not changed online, you must click **Update Inputs** to assign new input values
-12. Remember that data is sent as uint16, so all floats are parsed to integers. If you want to keep decimal number, you have to multiply them by gain *k* from plecs side and divide it by gain *1/k* on debug program side
+6. Downloaded Exe file can be suspicious for windows (if it doesn't want to open, click on *properties -> general -> unblock*
+7. Click **Start Plot** to view live Plecs data.  (After starting, it may take 10 second for plotter to appear)
+8. Choose **Save CSV: Yes** to log CSV data.  
+9. Input values, gain values, axis limits, and window size can be changed online.  
+10. To change the number of active (plotted) channels, turn the window with the scope off and start it again (you don’t need to turn off the whole program).
+11. Gain values are changed online with every refresh cycle
+12. Input values are not changed online, you must click **Update Inputs** to assign new input values
+13. Remember that data is sent as uint16, so all floats are parsed to integers. If you want to keep decimal number, you have to multiply them by gain *k* from plecs side and divide it by gain *1/k* on debug program side
 
 ---
 
