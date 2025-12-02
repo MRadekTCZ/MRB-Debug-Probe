@@ -1,5 +1,5 @@
 Plecs {
-  Name          "UartTest"
+  Name          "UartExample"
   Version       "4.9"
   CircuitModel  "DiscStateSpace"
   StartTime     "0.0"
@@ -8,7 +8,7 @@ Plecs {
   Solver        "FixedStepDiscrete"
   MaxStep       "1e-4"
   InitStep      "-1"
-  FixedStep     "1e-3"
+  FixedStep     "1e-4"
   Refine        "1"
   ZCStepSize    "1e-9"
   RelTol        "1e-3"
@@ -31,8 +31,14 @@ Plecs {
   InitializationCommands "Ts=1e-4;"
   InitialState  "1"
   SystemState   ""
-  TaskingMode   "1"
-  TaskConfigurations ""
+  TaskingMode   "2"
+  TaskConfigurations "AAAACQAAAAACAAAACAAAAAAGAAAACABDAG8AcgBlAAAAAgAAAAAAAAAA"
+"BgBDAHAAdQAAAAIAAAAAAAAAAA4ARABlAGYAYQB1AGwAdAAAAAEAAQAAAAgATgBhAG0AZQAAAAoAA"
+"AAAEgBCAGEAcwBlACAAdABhAHMAawAAABQAUwBhAG0AcABsAGUAVABpAG0AZQAAAAoAAAAAAgAwAA"
+"AADgBUAGgAZQByAG0AYQBsAAAAAQAAAAAACAAAAAAGAAAACABDAG8AcgBlAAAAAgAAAAAAAAAABgB"
+"DAHAAdQAAAAIAAAAAAAAAAA4ARABlAGYAYQB1AGwAdAAAAAEAAAAAAAgATgBhAG0AZQAAAAoAAAAA"
+"FgBTAGUAcgBpAGEAbAAgAHQAYQBzAGsAAAAUAFMAYQBtAHAAbABlAFQAaQBtAGUAAAAKAAAAAAgAM"
+"QBlAC0AMwAAAA4AVABoAGUAcgBtAGEAbAAAAAEAAA=="
   CodeGenParameterInlining "1"
   CodeGenFloatingPointFormat "1"
   CodeGenAbsTimeUsageMsg "3"
@@ -146,14 +152,14 @@ Plecs {
   }
   Terminal {
     Type          Output
-    Index         "1"
+    Index         "2"
   }
   Terminal {
     Type          Input
     Index         "1"
   }
   Schematic {
-    Location      [0, 23; 2234, 1173]
+    Location      [0, 26; 2234, 1176]
     ZoomFactor    1.49862
     SliderPosition [0, 0]
     ShowBrowser   off
@@ -1689,6 +1695,36 @@ Plecs {
       Parameter {
         Variable      "NoMatchingCounterpartAction"
         Value         "2"
+        Show          off
+      }
+    }
+    Component {
+      Type          TaskFrame
+      Name          "Task Frame"
+      Show          off
+      Position      [925, 415]
+      Direction     up
+      Flipped       off
+      LabelPosition south
+      Frame         [-362, -177; 362, 177]
+      Parameter {
+        Variable      "Task"
+        Value         "Serial task"
+        Show          off
+      }
+    }
+    Component {
+      Type          TaskFrame
+      Name          "Task Frame1"
+      Show          off
+      Position      [310, 115]
+      Direction     up
+      Flipped       off
+      LabelPosition south
+      Frame         [-292, -87; 292, 87]
+      Parameter {
+        Variable      "Task"
+        Value         "Base task"
         Show          off
       }
     }
