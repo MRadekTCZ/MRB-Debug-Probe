@@ -18,7 +18,8 @@ https://chalmers-my.sharepoint.com/:u:/g/personal/brzycki_chalmers_se/ERnHVhB9-s
 - Adjustable **time window** and **axis limits**  
 - Supports **1–8 channels** with individual names and gain control  
 - Scope that can plot 8 values with 20 Hz refresh rate  
-- 8 input fields — can be used for debugging or control tests  
+- 8 input fields — can be used for debugging or control tests
+- Outputs and inputs **operate on uint16**, so the resolution is 16 bits
 
 ---
 
@@ -32,6 +33,7 @@ https://chalmers-my.sharepoint.com/:u:/g/personal/brzycki_chalmers_se/ERnHVhB9-s
 7. To change the number of active (plotted) channels, turn the window with the scope off and start it again (you don’t need to turn off the whole program).
 8. Gain values are changed online with every refresh cycle
 9. Input values are not changed online, you must click **Update Inputs** to assign new input values
+10. Remember that data is sent as uint16, so all floats are parsed to integers. If you want to keep decimal number, you have to multiply them by gain *k* from plecs side and divide it by gain *1/k* on debug program side
 
 ---
 
