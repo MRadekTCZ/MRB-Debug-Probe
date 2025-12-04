@@ -19,7 +19,7 @@ https://chalmers-my.sharepoint.com/:u:/g/personal/brzycki_chalmers_se/ERnHVhB9-s
 - Supports **1–8 channels** with individual names and gain control  
 - Scope that can plot 8 values with 20 Hz refresh rate  
 - 8 input fields — can be used for debugging or control tests
-- Outputs and inputs **operate on uint16**, so the resolution is 16 bits
+- Outputs and inputs **operate on int16**, so the resolution is 16 bits
 
 ---
 
